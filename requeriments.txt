@@ -1,0 +1,8 @@
+Flask==1.1.1
+Flask-Cors==3.0.8
+Flask-Login==0.4.1
+Jinja2==2.10.3
+PyYAML==5.3
+Unidecode==1.1.1
+urllib3==1.25.7
+Werkzeug==0.16.0

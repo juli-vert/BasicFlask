@@ -1,0 +1,116 @@
+body {
+    font: 15px/1.5 Segoe UI,Fira Sans,Helvetica, sans-serif,Arial;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 600px;
+    background-color: rgb(126, 126, 126);
+
+}
+
+.message-small {
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+
+.header {
+    height: 10%;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 3px solid black;
+}
+
+.header .logo {
+    float: left;
+    width: 40%;
+    text-align: left;
+    margin-top: -8px;
+    font-weight: bold;
+    font-family: "Brush Script MT";
+}
+
+.header .extra {
+    float: right;
+    margin-top: 5px;
+    width: 50%;
+    text-align: right;
+    font-size: 15px;
+}
+
+.header .extra ul {
+    list-style-type: none;       
+}
+
+.header .extra li {
+    display: inline;
+    padding: 0 20px 0 20px;        
+}
+.header .extra a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+.header .extra a:hover{
+    text-decoration: none;
+    color: yellowgreen;
+    text-transform: uppercase;
+}
+
+.article {
+    min-height: 90%;
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+.footer {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    max-height: 10%;
+    border-top: 3px solid black;
+}
+.login-form {
+    position: relative;
+    padding-top: 50px;
+    margin: auto;
+    margin-top: 50px;
+    width: 40%;
+    text-align: center;
+}
+
+input[type=text], [type=mail], [type=password]{
+    width: 100%;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 10px;
+}
+input[type=text]:disabled {
+    background-color: black;
+}
+input[type=text]:focus,
+[type=mail]:focus,
+[type=password]:focus{
+    background-color: black;
+    color: white;
+    outline: none;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: black;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 12px;
+    color: white;
+}
+input[type=submit]:hover {
+    font-weight: bold;
+}

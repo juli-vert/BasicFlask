@@ -1,0 +1,43 @@
+<html>
+<head>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/responsive.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                My web page
+            </div>
+            <div class="extra">
+                <ul>
+                    <li><a href=".">LINK1</a></li>
+                    <li><a href=".">LINK2</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div id="messages"></div>
+    <div class="article">
+        <div class="login-form">
+            <span class="message-small">Message</span>
+            <form id="loginform" name="loginform" method="POST" onsubmit="event.preventDefault(); common.CheckPassword(this);">
+                <input type="mail" name="username" id="username" placeholder="username"/>
+                <input type="password" name="password" id="password" placeholder="password"/>
+                <input type="submit" name="entra" value="Entra"/>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <span class="message-small">All rights reserved</span>
+    </footer >
+    <script type="text/javascript" src="../static/js/file1.js"></script>
+    <script>
+        let init = () => {
+            console.log("Add your bootloader scripts here")
+        }
+        window.onload = init()
+    </script>
+</body>
+</html>
